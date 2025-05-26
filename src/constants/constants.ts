@@ -1,0 +1,55 @@
+export const EDUCATION =[
+  {
+    "id": 1,
+    "name": "Kremenczuk National University",
+    "location": "Kremenczuk, Ukraina",
+    "degree": "master's degree",
+    "major": "Electronics Engineering",
+    "startDate": "2008",
+    "endDate": "2013",
+  },
+  {
+    "id": 3,
+    "name": "European School of Business",
+    "location": "Poznań, Polska",
+    "degree": "MBA",
+    "major": "International Business Management",
+    "startDate": "2015",
+    "endDate": "2017",
+  },
+  {
+    "id": 4,
+    "name": "College of Education and the Administration. Mieszko I.",
+    "location": "Poznań, Polska",
+    "degree": "master's degree",
+    "major": "Internal Audit",
+    "startDate": "2017",
+    "endDate": "2019",
+  },
+  {
+    "id": 5,
+    "name": "RS School",
+    "location": "Online",
+    "degree": "Frontend/React Developer",
+    "major": "JavaScript/React",
+    "startDate": "2023",
+    "endDate": "2025",
+    'Certifications': [
+      {
+        "name": "JS/FE PRE-SCHOOL 2023Q2",
+        "date": "2023",
+      "url": "https://app.rs.school/certificate/kidlumka",
+      },
+      {
+        "name": "JAVASCRIPT/FRONT-END 2023Q4 ",
+        "date": "2023",
+      "url": "https://app.rs.school/certificate/1oi0heo5",
+      },
+      {
+        "name": "React 2025Q1",
+        "date": "2025",
+      "url": "https://app.rs.school/certificate/vu15jx7l",
+      },
+    ],
+  },
+ ]
