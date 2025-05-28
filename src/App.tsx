@@ -1,9 +1,13 @@
 import "./App.css";
-import Education from "./components/Education_exp";
+import Education from "./layout/section/Education_exp";
+
+import Projects from "./layout/section/Projects";
+import SoftSkills from "./layout/section/SoftSkils";
+import TechStack from "./layout/section/TechStack";
 
 function App() {
   return (
-    <div className="container">
+    <main className="container">
       <h1>Glib Shemenkov</h1>
       <p>
         <strong>Frontend Developer</strong> based in Poznań, Poland
@@ -19,81 +23,35 @@ function App() {
         </div>
       </div>
 
-      <div className="section">
-        <h2>Summary</h2>
+      <section className="section">
+        <h3>Summary</h3>
         <p>
-          Frontend Developer with strong skills in React, Redux Toolkit, and
-          TypeScript. Experienced in building responsive, scalable web apps.
-          Passionate about UI/UX and continuous learning. Previously worked in
-          IT support with real-world exposure to CSS and layout fixes.
+          Frontend Developer with a strong foundation in modern web development
+          using React, Redux Toolkit, and TypeScript. Completed multiple
+          real-world projects as part of an intensive frontend training program.
+          Background in IT support with a transition into web development
+          through self-education and hands-on practice. Passionate about
+          building user-friendly interfaces and learning cutting-edge
+          technologies.
         </p>
-      </div>
+      </section>
+      <TechStack />
+      <Projects />
 
-      <div className="section">
-        <h2>Projects</h2>
+      <section className="section">
+        <h3>Experience</h3>
         <ul>
           <li>
-            <strong>eCommerce-App:</strong> Online store.{" "}
-            <a href="https://github.com/Kravius/eCommerce-App" target="_blank">
-              GitHub
-            </a>
-          </li>
-          <li>
-            <strong>Postman:</strong> Rest client.{" "}
-            <a
-              href="https://github.com/Kravius/rest-client-app"
-              target="_blank"
-            >
-              GitHub
-            </a>
-          </li>
-          <li>
-            <strong>Puzzle Game:</strong> Interactive game with JS and CSS.{" "}
-            <a href="https://github.com/Kravius/Puzzle" target="_blank">
-              GitHub
-            </a>
-          </li>
-          <li>
-            <strong>Library App:</strong> Modular JS book app.{" "}
-            <a
-              href="https://kravius.github.io/Library-school/library/"
-              target="_blank"
-            >
-              Live Demo
-            </a>
+            <strong>Ferolit NPP. System Administrator (2012–2013):</strong>{" "}
+            Maintained IT infrastructure, customized static web templates.
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div className="section">
-        <h2>Experience</h2>
-        <ul>
-          <li>
-            <strong>Freelance Frontend Developer (2013):</strong> Styled local
-            business site using custom CSS, implemented responsive fixes.
-          </li>
-          <li>
-            <strong>System Administrator (2012–2013):</strong> Maintained IT
-            infrastructure, customized static web templates.
-          </li>
-        </ul>
-      </div>
+      <Education />
 
-      <div className="section">
-        <h2>Education & Certifications</h2>
-        {<Education />}
-      </div>
-
-
-
-      <div className="section">
-        <h2>Soft Skills</h2>
-        <p>
-          Teamwork • Time Management • Critical Thinking • Communication •
-          Leadership • Self-learning
-        </p>
-      </div>
-    </div>
+      <SoftSkills />
+    </main>
   );
 }
 

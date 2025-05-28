@@ -23,5 +23,13 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
+  "baseUrl": ".",
+  "paths": {
+    "@/*": ["src/*"],
+    "@components/*": ["src/components/*"],
+    "@layout/*": ["src/layout/*"],
+    "@constants/*": ["src/constants/*"],
+    "@assets/*": ["src/assets/*"]
+  },
   "include": ["src"]
 }

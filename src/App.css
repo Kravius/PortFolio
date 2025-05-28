@@ -1,41 +1,50 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 1.4rem;
 }
 
 body {
   font-family: "Inter", sans-serif;
   background: #f9fafb;
   margin: 0;
-  padding: 2rem;
+  /* padding: 1rem; */
   color: #111827;
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+h1 {
+  font-size: 2rem;
+}
+
 h1,
-h2 {
+h3 {
   color: #1f2937;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 a {
   color: #2563eb;
   text-decoration: none;
+  &:hover {
+    color: #5dbcd2;
+  }
 }
 .section {
-  margin-bottom: 2rem;
+  margin-bottom: 1.1rem;
 }
 ul {
   padding-left: 1.2rem;
 }
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+  list-style: none;
 }
 .contact,
 .skills {
@@ -46,7 +55,7 @@ li {
 .tag {
   background: #e0f2fe;
   color: #0369a1;
-  padding: 0.3rem 0.6rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 }
